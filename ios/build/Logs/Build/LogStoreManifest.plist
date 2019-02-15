@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>AA508D2E-3A59-42BE-B69C-32F389848E44</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA508D2E-3A59-42BE-B69C-32F389848E44.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myPractice with scheme myPractice and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>571890923.14745903</real>
+			<key>timeStoppedRecording</key>
+			<real>571890932.51735699</real>
+			<key>title</key>
+			<string>Building project myPractice with scheme myPractice and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>AA508D2E-3A59-42BE-B69C-32F389848E44</string>
+		</dict>
+		<key>F2B061CB-6FAA-4E2F-A0AD-A6102EFC07C2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F2B061CB-6FAA-4E2F-A0AD-A6102EFC07C2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myPractice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myPractice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myPractice with scheme myPractice and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>571897196.34676898</real>
+			<key>timeStoppedRecording</key>
+			<real>571897201.18871796</real>
+			<key>title</key>
+			<string>Building project myPractice with scheme myPractice and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>F2B061CB-6FAA-4E2F-A0AD-A6102EFC07C2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

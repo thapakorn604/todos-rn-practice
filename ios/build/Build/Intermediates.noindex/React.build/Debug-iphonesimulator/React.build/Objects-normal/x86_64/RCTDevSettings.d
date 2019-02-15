@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/thapakorn/myPractice/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h
