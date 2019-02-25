@@ -9,19 +9,24 @@
 
 import React, {Component} from 'react'
 import { Provider } from 'react-redux'
-import { createStore,applyMiddleware } from 'redux'
-import logger from 'redux-logger'
+import { PersistGate } from 'redux-persist/integration/react'
 
-import RootReducer from './src/reducers/RootReducer'
-import MainScene from './src/containers/MainSceneContainer'
+import Router from './src/routers/RootRouter'
+import Store from './src/store'
 
-const store = createStore(RootReducer, applyMiddleware(logger))
+import Loading from './src/components/sub-components/LoadingScene'
+
+const { store, persistor } = Store()
+
 
 export default class App extends Component {
+  
   render() {
     return (
       <Provider store={store}>
-        <MainScene/>
+        <PersistGate loading={<Loading/>} persistor={persistor}>
+          <Router/>
+        </PersistGate>
       </Provider>      
     );
   }
