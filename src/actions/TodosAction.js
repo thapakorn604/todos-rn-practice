@@ -1,4 +1,5 @@
 import { ADD_TODO, DELETE_TODO, UPDATE_TODO } from '../constants/TodosConstant'
+import { PURGE } from 'redux-persist'
 
 export const addTodo = (task) => {
     return {
@@ -20,5 +21,13 @@ export const updateTodo = (key, done) => {
         payload : {
             key, done
         }
+    }
+}
+
+export const resetState = (key) => {
+    return {
+        type : PURGE,
+        payload : key,
+        result : () => {alert("RESET!!")}
     }
 }

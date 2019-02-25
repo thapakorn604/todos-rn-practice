@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
 
-import MainScene from '../components/MainScene'
+import MainScene from '../components/main-components/MainScene'
 
-import { addTodo, deleteTodo, updateTodo } from '../actions/TodosAction'
+import { addTodo, deleteTodo, updateTodo, resetState } from '../actions/TodosAction'
 
 
 const mapStateToProps = state => {
@@ -17,11 +17,13 @@ const mapDispatchToProps = dispatch => {
             dispatch(deleteTodo(index))
         },
         addTodo: (task) => {
-            console.log(JSON.stringify(task))
             dispatch(addTodo(task))
         },
         updateTodo: (index, done) => { 
             dispatch(updateTodo(index, done))
+        },
+        resetState: () => {
+            dispatch(resetState())
         }
     }
 }
